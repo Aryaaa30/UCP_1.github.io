@@ -1,0 +1,13 @@
+/* Mengatur ukuran gambar di dalam carousel */
+.carousel-image {
+    max-width: 75%; /* Atur lebar maksimal sesuai keinginan, bisa diganti dengan nilai lain */
+    margin: 0 auto; /* Agar carousel berada di tengah halaman */
+    width: 75%; /* Memastikan gambar mengisi lebar penuh carousel */
+}
+
+/* Mengatur ukuran gambar di dalam kartu */
+.card-img-top {
+    max-height: 200px; /* Anda dapat menyesuaikan tinggi maksimum sesuai kebutuhan */
+    object-fit: cover; /* Memastikan gambar diatur sesuai tinggi maksimum */
+    width: 100%; /* Memastikan gambar mengisi lebar penuh kartu */
+}
